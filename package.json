@@ -1,0 +1,33 @@
+{
+  "name": "cypress-recruitment-task",
+  "version": "1.0.0",
+  "description": "QA Recruitment Task: Car renting application BDD test automation with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:runTests": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksanderGelo/Recruitment-task.git"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "Aleksander Geło",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksanderGelo/Recruitment-task/issues"
+  },
+  "homepage": "https://github.com/AleksanderGelo/Recruitment-task#readme",
+  "dependencies": {
+    "cypress": "^9.5.4",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^2.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
